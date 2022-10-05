@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: '나눔스퀘어라운드', '나눔고딕','돋움' ;
+}
+.contain2 a{
+    transition: 1s;
+} 
+.contain2 a:hover {
+    opacity: .6;
+}
+.contain2 img:hover{
+    transform: scale(1,1.05);
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.contain1, .contain2{
+    width: 1350px;
+    margin: 0 auto;
+}
+header{
+    margin: 0 auto;
+    width: 1350px;
+    text-align: center;
+}
+nav{
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    background-color:white;
+}
+nav ul li{
+    float: left;
+    margin: 0 30px;
+    color:  #727272;
+}
+.nav1 ul li a:hover{
+    color : skyblue;
+}
+.subnav ul li:hover{
+    color : skyblue;
+}
+.nav1{
+    margin: 0 auto;
+    width: 600px;
+}
+.keyimg img{
+    width: 100%;
+    height: 400px;
+}
+.article1{
+    height: 435px;
+}
+.article1 img{
+    border-radius: 15px 15px 0 0;
+    width: 419px;
+    height: 300px;
+}
+.article1-1, .article1-2, .article1-3{
+    float: left;
+    box-sizing: border-box;
+    border-right: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    border-radius: 15px;
+    width: 420px;
+    margin: 15px;
+}
+.article2{
+    height: 500px;
+    clear: both;
+}
+.article2 img{
+    border-radius:  15px 15px 0 0;
+    width: 654px;
+    height: 300px;
+}
+.article2-1, .article2-2{
+    float: left;
+    box-sizing: border-box;
+    border-right: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    border-radius: 15px;
+    width: 655px;
+    margin: 10px;
+}
+.footerwrap {
+	margin-top: 0px;
+	width: 100%;
+	height: 248px;
+	line-height: 205px;
+	text-align: center;
+	font-size: 12px;
+	background: #fafafa;
+	box-sizing: border-box;
+}
+
+.footer2 {
+	height: 53px;
+	border-top: 1px solid #ddd;
+	box-sizing: border-box;
+}
+
+.footertext2 {
+	margin: 0 auto;
+	width: 1080px;
+	height: 53px;
+	line-height: 53px;
+	text-align: left;
+}
+.footertext2 ul li{
+	float: left;
+}
+
+.footertext1 a {
+	text-align: left;
+	text-decoration: none;
+	color: #222;
+	padding-right: 15px;
+	font-size: 14px;
+}
+
+.footer1wrap {
+	width: 100%;
+    height: 130px;
+    background: #EEE;
+    border-top: 1px solid #ddd;
+}
+
+.footer1 {
+	margin: 0 auto;
+	width: 1080px;
+	height: 100px;
+    line-height: 147px;
+}
+
+.footertext1 {
+	width: 1080px;
+	height: 100px;
+	float:right; 
+}
+
+.footertext1 p {
+	line-height: 30px;
+	margin: 20px 0px 20px 0;
+    text-align: justify;
+	font-size: 14px;
+}
+
+.footer3wrap {
+	width: 100%;
+	height: 50px;
+	background: white;
+	border-top: 1px solid #ddd;
+	box-sizing: border-box;
+}
+
+.footer3 {
+	margin: 0 auto;
+	width: 1080px;
+	height: 50px;
+	line-height: 50px;
+}
+
+.footertext3 {
+	width: 500px;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+	font-size: 14px;
+	text-align: left;
+	color: #595959;
+}
+/*서브 페이지1의 CSS (동유럽)*/
+.wrap .fixtop {
+	width: 100%;
+	height: 80px;
+	background-color: white;
+	line-height: 80px;
+	position: fixed;
+}
+.wrap .fixtop header {
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+.wrap .fixtop .subnav {
+	width: 80%;
+	float: right;
+    text-align: center;
+}
+.subnav ul li {
+	float: left;
+	list-style-type: none;
+    width: 25%;
+    color: #727272;
+}
+.subnav ul li a {
+    text-decoration: none;
+}
+.blog{
+    clear: both;
+    background-color: white;
+    width: 1080px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.blog p{
+    line-height: 30px;
+}
+.subarticle{
+    margin: 0 auto;
+    width: 1080px;
+}
